@@ -1,0 +1,6 @@
+Prompt the user to enter a number
+Capture the number and store in memory
+Prompt the user to enter a second number
+Capture the second number and store in memory
+Calculate the sum of the first and second number and store in memory
+Display the sum of on the screen
