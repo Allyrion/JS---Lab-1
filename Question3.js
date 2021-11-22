@@ -2,12 +2,11 @@
 
 const prompt = require("prompt-sync")();
 
-console.log("We are going to calculate your weekly wage before and after tax!");
+console.log("This program will calculate the area and perimeter of a rectangle, given its length and width.")
+const length = parseInt(prompt("Please enter the length of the rectangle: "));
+const width = parseInt(prompt("Please enter the width of the rectangle: "));
 
-const hourlyWage = parseInt(prompt("Please provide your gross hourly wage: "));
-const weeklyHours = parseInt(prompt("How many hours do you work in a given week?: "))
+const area = length * width;
+const perimeter = 2 * (length+width);
 
-const grossSalary = hourlyWage * weeklyHours;
-const netSalary = grossSalary * 0.75;
-
-console.log(`With the information given, your gross weekly salary is ${grossSalary} but your net salary is unfortunately ${netSalary}.`);
+console.log(`The area of the rectangle is ${area} and its perimeter is ${perimeter}.`);
