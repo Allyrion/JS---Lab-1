@@ -1,4 +1,4 @@
-/*Question 5*/
+/*Question 6*/
 
 const prompt = require("prompt-sync")();
 
